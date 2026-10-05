@@ -44,6 +44,7 @@ async def bombs(interaction: discord.Interaction):
         return
     if not data:
         await interaction.followup.send("No active bombs right now.")
+        return 
 
     lines = []
     for bomb in data:
