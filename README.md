@@ -43,13 +43,10 @@ Requirements: Python 3.12 and a running [bombtracker-backend](https://github.com
    GUILD_ID=your-server-id
    BACKEND_URL=http://localhost:8080
    ```
-   The bot token is a password for your bot. Never commit it.
 5. **Run it:**
    ```bash
    python bot.py
    ```
-
-Commands are synced to the server in `GUILD_ID`, so they appear immediately.
 
 ## Disclaimer
 
